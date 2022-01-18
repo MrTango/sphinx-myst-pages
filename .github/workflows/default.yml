@@ -19,10 +19,10 @@ jobs:
         docs-folder: "."
     # Great extra actions to compose with:
     # Create an artifact of the html output.
-    # - uses: actions/upload-artifact@v1
-    #   with:
-    #     name: DocumentationHTML
-    #     path: _build/html/
+    - uses: actions/upload-artifact@v1
+      with:
+        name: DocumentationHTML
+        path: _build/html/
     # Publish built docs to gh-pages branch.
     # ===============================
     - name: Commit documentation changes
