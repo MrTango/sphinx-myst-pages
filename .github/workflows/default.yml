@@ -17,8 +17,8 @@ jobs:
       with:
         build-command: "sphinx-build -b html . _build"
         docs-folder: "."
-    # # Great extra actions to compose with:
-    # # Create an artifact of the html output.
+    # Great extra actions to compose with:
+    # Create an artifact of the html output.
     # - uses: actions/upload-artifact@v1
     #   with:
     #     name: DocumentationHTML
@@ -28,7 +28,7 @@ jobs:
     - name: Commit documentation changes
       run: |
         git clone https://github.com/MrTango/sphinx-myst-pages.git --branch gh-pages --single-branch gh-pages
-        cp -r _build/html/* gh-pages/
+        cp -r _build/html/* gh-pages/docs/
         cd gh-pages
         touch .nojekyll
         git config --local user.email "action@github.com"
