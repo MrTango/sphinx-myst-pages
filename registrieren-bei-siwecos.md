@@ -8,3 +8,4 @@ Das Projekt [Siwecos](https://siwecos.de) wurde von [Eco](https://www.eco.de/) (
 Damit Sie Ihre Domains mit den Siwecos-Scannern auf Sicherheitslücken überprüfen lassen können, ist zunächst eine Registrierung und anschließende personalisierte Anmeldung nötig. Ihre Daten werden **keinesfalls an Dritte weitergegeben**.
 
 ![](2022-01-18-19-41-00.png)
+
