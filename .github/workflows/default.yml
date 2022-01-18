@@ -17,8 +17,7 @@ jobs:
       with:
         build-command: "sphinx-build -vvv -b html . _build"
         docs-folder: "."
-    - name: Cat logs
-      run: cat /tmp/sphinx-log
+        run: cat /tmp/sphinx-log
     # Great extra actions to compose with:
     # Create an artifact of the html output.
     - uses: actions/upload-artifact@v1
