@@ -15,7 +15,7 @@ jobs:
     # Standard drop-in approach that should work for most people.
     - uses: ammaraskar/sphinx-action@master
       with:
-        build-command: "sphinx-build -vvv -b html . _build"
+        build-command: "sphinx-build -vvv -b html . _build/html"
         docs-folder: "docs/"
     - run: ls
     - run: ls docs/*
