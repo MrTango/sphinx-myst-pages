@@ -17,6 +17,9 @@ jobs:
       with:
         build-command: "sphinx-build -vvv -b html . _build"
         docs-folder: "docs/"
+    - run: ls
+    - run: ls docs/*
+
     # Great extra actions to compose with:
     # Create an artifact of the html output.
     - uses: actions/upload-artifact@v1
